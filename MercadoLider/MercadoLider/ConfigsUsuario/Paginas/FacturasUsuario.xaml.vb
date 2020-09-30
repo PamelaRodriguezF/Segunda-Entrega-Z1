@@ -1,0 +1,3 @@
+﻿Class FacturasUsuario
+
+End Class
