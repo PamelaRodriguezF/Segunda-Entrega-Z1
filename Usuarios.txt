@@ -7,3 +7,8 @@ pamelarblu@gmail.com
 123
 
 Para el funcionamiento del programa, phpmyadmin debe de tener un usuario nombre "root" con contraseña "root" en el puerto localhost
+
+QUERYS para dar dicha contraseña al usuario root:
+GRANT ALL PRIVILEGES ON . TO `root`@`localhost` IDENTIFIED BY PASSWORD '*81F5E21E35407D884A6CD4A731AEBFB6AF209E1B' WITH GRANT OPTION;
+
+GRANT PROXY ON ''@'%' TO 'root'@'localhost' WITH GRANT OPTION;
