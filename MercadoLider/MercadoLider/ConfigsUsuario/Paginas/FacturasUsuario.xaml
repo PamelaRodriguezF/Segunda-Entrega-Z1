@@ -1,0 +1,70 @@
+﻿<Page x:Class="FacturasUsuario"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" xmlns:local="clr-namespace:MercadoLider"
+      mc:Ignorable="d" d:DesignHeight="500" d:DesignWidth="330" Title="FacturasUsuario">
+    <!-- Canvas -->
+    <Canvas Height="500" Width="330" Background="#FFDFD7CA">
+        <!-- LabelVerFacturas -->
+        <Label x:Name="VerFacturaLabel" Content="Ver factura" Canvas.Top="9.8" Width="276" Foreground="#FFDFD7CA" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Canvas.Left="28" Height="62" Background="#FF1C1530" />
+        <!-- BotonAtras -->
+        <!-- FotoDelArticulo -->
+        <Border x:Name="FotoArticuloBorder" BorderBrush="Black" BorderThickness="1" Height="60" Canvas.Left="10" Canvas.Top="134" Width="60"/>
+        <!-- TextBoxNombre -->
+        <TextBox x:Name="NombreText" Height="45" Canvas.Left="75" TextWrapping="Wrap" Canvas.Top="99" Width="229" 
+            materialDesign:HintAssist.Hint="Nombre"
+            materialDesign:HintAssist.Foreground="#FF1C1530"
+            materialDesign:TextFieldAssist.UnderlineBrush="#FF673AB7"
+            Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+        <!-- TextBoxPrecio -->
+        <TextBox x:Name="PrecioText" Height="45" Canvas.Left="75" TextWrapping="Wrap" Canvas.Top="149" Width="229"
+            materialDesign:HintAssist.Hint="Pecio"
+            materialDesign:HintAssist.Foreground="#FF1C1530"
+            materialDesign:TextFieldAssist.UnderlineBrush="#FF673AB7"
+            Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+        <!-- TextBoxDescripcion -->
+        <TextBox x:Name="DescripcionText" Height="80" Canvas.Left="10" TextWrapping="Wrap" Canvas.Top="203" Width="310" 
+            materialDesign:HintAssist.Hint="Descripcion"
+            materialDesign:HintAssist.Foreground="#FF1C1530"
+            materialDesign:TextFieldAssist.UnderlineBrush="#FF673AB7"
+            Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+        <!-- TextBoxComprador -->
+        <TextBox x:Name="CompradorText" Height="45" Canvas.Left="10" TextWrapping="Wrap" Canvas.Top="296" Width="137" 
+            materialDesign:HintAssist.Hint="Comprador"
+            materialDesign:HintAssist.Foreground="#FF1C1530"
+            materialDesign:TextFieldAssist.UnderlineBrush="#FF673AB7"
+            Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+        <!-- TextBoxVendedor -->
+        <TextBox x:Name="VendedorText" Height="45" Canvas.Left="10" TextWrapping="Wrap" Canvas.Top="356" Width="137"
+            materialDesign:HintAssist.Hint="Vendedor"
+            materialDesign:HintAssist.Foreground="#FF1C1530"
+            materialDesign:TextFieldAssist.UnderlineBrush="#FF673AB7"
+            Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+        <!-- TextBoxTelefonoComprador -->
+        <TextBox x:Name="TelefonoCompradorText" Height="45" Canvas.Left="168" TextWrapping="Wrap" Canvas.Top="296" Width="137"
+            materialDesign:HintAssist.Hint="Telefono Comprador"
+            materialDesign:HintAssist.Foreground="#FF1C1530"
+            materialDesign:TextFieldAssist.UnderlineBrush="#FF673AB7"
+            Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+        <!-- TextBoxTelefonoVendedor -->
+        <TextBox x:Name="TelefonoVendedorText" Height="45" Canvas.Left="168" TextWrapping="Wrap" Canvas.Top="356" Width="137"
+            materialDesign:HintAssist.Hint="Telefono Comprador"
+            materialDesign:HintAssist.Foreground="#FF1C1530"
+            materialDesign:TextFieldAssist.UnderlineBrush="#FF673AB7"
+            Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+        <!-- TextBoxFecha -->
+        <TextBox x:Name="FechaText" Height="45" Canvas.Left="10" TextWrapping="Wrap" Canvas.Top="406" Width="137" 
+            materialDesign:HintAssist.Hint="Fecha De La Compra"
+            materialDesign:HintAssist.Foreground="#FF1C1530"
+            materialDesign:TextFieldAssist.UnderlineBrush="#FF673AB7"
+            Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+        <!-- TextBoxCantidad -->
+        <TextBox x:Name="Cantidad" Height="45" Canvas.Left="168" TextWrapping="Wrap" Canvas.Top="406" Width="136" 
+            materialDesign:HintAssist.Hint="Cantidad"
+            materialDesign:HintAssist.Foreground="#FF1C1530"
+            materialDesign:TextFieldAssist.UnderlineBrush="#FF673AB7"
+            Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+
+    </Canvas>
+</Page>
