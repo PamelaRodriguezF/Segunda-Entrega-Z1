@@ -5,3 +5,5 @@ danieldiaz@gmail.com
 COMPRADOR/VENDEDOR
 pamelarblu@gmail.com
 123
+
+Para el funcionamiento del programa, phpmyadmin debe de tener un usuario nombre "root" con contraseña "root" en el puerto localhost
